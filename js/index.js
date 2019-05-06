@@ -41,7 +41,7 @@ function displayCommits() {
       commit =>
 
         commit.author.login +
-        
+
         commit.commit.author.name + ' - ' +
         commit.commit.message +
     )
